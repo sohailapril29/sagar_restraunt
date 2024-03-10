@@ -759,3 +759,20 @@ p {
 
 
 
+.navigation-wrap .navbar-brand {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    font-weight: bold; /* Making the text bold */
+    color: #333; /* Default text color */
+}
+
+.navigation-wrap .navbar-brand .logo-red {
+    color: red; /* Red color for the specified letters */
+    font-weight: bold; /* Making the specified letters bold */
+}
+
+@media (max-width: 991px) {
+    .navigation-wrap .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
